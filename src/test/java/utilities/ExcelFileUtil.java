@@ -81,11 +81,11 @@ public class ExcelFileUtil {
 		FileOutputStream fo = new FileOutputStream(WriteExcel);
 		wb.write(fo);
 	}
-	public static void main(String[] args)throws Throwable {
-		ExcelFileUtil  xl = new ExcelFileUtil("./FileInput/customer.xlsx");
-		//count no of rows ina sheet
-		int rc = xl.rowCount("CustomerData");
-		System.out.println(rc);
-	}
+//	public static void main(String[] args)throws Throwable {
+//		ExcelFileUtil  xl = new ExcelFileUtil("./FileInput/customer.xlsx");
+//		//count no of rows ina sheet
+//		int rc = xl.rowCount("CustomerData");
+//		System.out.println(rc);
+//	}
 
 }
